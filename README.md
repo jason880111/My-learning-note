@@ -1,5 +1,5 @@
 # My-learning-note
-歡迎來到我的學習筆記，這裡有我在codesignal和leetcode練習的程式碼
+歡迎來到我的學習筆記，這裡有我在codesignal和leetcode練習的紀錄
 
 # About me
   * 姓名:鄭至勛
