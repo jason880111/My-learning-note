@@ -21,5 +21,5 @@ a == not b是錯的，因為python會先處理==
 **4. Language Differences**
 
 ![](https://github.com/jason880111/My-learning-note/blob/master/codesignal/iamge/4.png)
-JAVA中(/)運算符號用於查找兩個整數相除的商，只取整數位。Python中的(//)則是會將取到的商的小數位無條件取小一位整數。所以Python執行結果為-4，JAVA執行結果為-3。
+Java中的(/)結果是只取整數位;Python中的(//)則是會將取到的商的小數位無條件取小一位整數。所以Python執行結果為-4，JAVA執行結果為-3。
 
