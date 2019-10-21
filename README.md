@@ -11,7 +11,7 @@
 # week 2
   * linked list
 # week 3
-  * Stack & Queue
+  * [Stack & Queue](https://github.com/jason880111/My-learning-note/tree/master/week3)
 # week 4
   * Set Missmatch
   * Insertion Sort
