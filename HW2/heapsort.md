@@ -13,39 +13,42 @@
     * 交換 heap 的 root 與最後一個 node
     * 將剩下的資料排序， 使其滿足heap的特性
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+# 學習歷程
+
+一開始實在沒甚麼頭緒開始，後來上網看了heap sort的流程，在理解完之後也嘗試著自己打打看，但光是heapify的部分就不太順利，所以最後決定直接參考一下網路上的版本，看完之後再試著自己重打一遍
+
 **參考網站**
-* [[演算法] 堆積排序法(Heap Sort)](http://www.notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
+* [[演算法] 堆積排序法(Heap Sort)](http://www.notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     
