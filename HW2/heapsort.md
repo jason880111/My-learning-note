@@ -380,6 +380,11 @@ print(a)
 ```python
 
 ```
+
+# 流程圖
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/heap%E6%B5%81%E7%A8%8B.PNG' height=500 weight =500>
+
+
 **參考網站**
 * [[演算法] 堆積排序法(Heap Sort)](http://www.notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)    
     
