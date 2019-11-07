@@ -11,3 +11,8 @@ Merge Sort大概的步驟如下:
     * 排序兩個只剩一個元素的小陣列並合併
     * 把兩邊排序好的小陣列合併並排序成一個陣列
     * 重複步驟二直到所有小陣列都合併成一個大陣列
+
+
+# 學習歷程
+**參考網站**
+* [merge sort - geeksforgeeks](http://www.notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)    
