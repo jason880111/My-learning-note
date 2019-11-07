@@ -1,4 +1,4 @@
-# Heapsort簡介
+# Heap sort簡介
   heapsort又叫堆、累堆
   * 最小堆積 (min heap) : 父節點的值小於子節點
  
