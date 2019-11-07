@@ -31,4 +31,4 @@
   
  # 結論
  理論上Heap sort比merge sort還要來的快速。
- 他們倆個最差的時間複雜度都是 O(n log n) , 但是heap sort 是in-place sorting , 不像merge sort 每次都需要  去跟記憶體要一個位置 , 所以說Heap sort 理論上是比merge sort還要快
+ 他們倆個最差的時間複雜度都是 O(n log n) , 但是heap sort 是in-place sorting , 不像merge sort 每次都需要去跟記憶體要一個位置 , 所以說Heap sort 理論上是比merge sort還要快
