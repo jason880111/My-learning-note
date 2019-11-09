@@ -1,5 +1,5 @@
 class Solution(object):
-    def heapsort(self,nums):
+    def heap_sort(self,nums):
         n = len(nums)
         for i in range(n-1, -1, -1):
             self.heapify(nums, n, i)
@@ -28,6 +28,6 @@ class Solution(object):
             
             
 a=[8,3,5,1,0,-3,4]
-Solution().heapsort(a)
+Solution().heap_sort(a)
 print(a)
 [8, 5, 4, 3, 1, 0, -3]
