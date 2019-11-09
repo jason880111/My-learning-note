@@ -1,13 +1,13 @@
-class solution(object):
-    def msort(self,x):
+class Solution(object):
+    def merge_sort(self,x):
         if len(x) < 2:
             return x
         result = []
         mid = int(len(x) / 2)
-        y = msort(x[:mid])
-        z = msort(x[mid:])
-        self.msort(y)
-        self.msort(z)
+        y = merge_sort(x[:mid])
+        z = merge_sort(x[mid:])
+        self.merge_sort(y)
+        self.merge_sort(z)
     
         i = 0
         j = 0
@@ -23,6 +23,6 @@ class solution(object):
         return result
 
 
-ans=solution().msort([3,4,6,1,9,5,15,0])
+ans=Solution().merge_sort([3,4,6,1,9,5,15,0])
 ans
 [0, 1, 3, 4, 5, 6, 9, 15]
