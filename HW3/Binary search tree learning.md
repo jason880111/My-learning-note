@@ -442,5 +442,5 @@ delete實在是太難了，所以我只好直接上網找了幾個網站看人�
 
 
 **參考網站**
-* Delete - geeksforgeeks](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/) 
+* [Delete - geeksforgeeks](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/) 
 * [Binary Search Tree: search、insert](http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html) 
