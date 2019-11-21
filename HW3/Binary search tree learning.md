@@ -348,6 +348,8 @@ class Solution(object):
 
 
 *我這邊選擇的是找右邊的最小值，所以這邊就先建立一個minRightNode function
+
+
     
     def minRightNode(node):
         current = node
@@ -421,6 +423,12 @@ print(root2.right.right.right == None and root2.right.right.left == None and roo
 print(root2.right.left.left.left == None and root2.right.left.left.right == None and root2.right.val == 8)
 print("------------------------------------------")
 ```
+
+
+這邊丟入測資後，原本想說應該可以跑出正確的結果，但這個delete問題有點大。假設我的root有兩個child，刪除root之後我找了右邊sub tree的最小值補上來，當我要再把右邊的最小值刪掉的時候，卻無法刪除這個node，導致我下面跑出來的第一個結果是False
+
+
+
 
     delete
     False
