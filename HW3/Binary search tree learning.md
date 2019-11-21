@@ -439,3 +439,8 @@ print("------------------------------------------")
     
 
 delete實在是太難了，所以我只好直接上網找了幾個網站看人家是怎麼弄的，看了很多種方法也大概了解運作原理了，剩下的部分就只能自己試看看，邊做邊學，所以我就憑我自己的印象重打了一遍
+
+
+**參考網站**
+* Delete - geeksforgeeks](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/) 
+* [Binary Search Tree: search、insert](http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html) 
