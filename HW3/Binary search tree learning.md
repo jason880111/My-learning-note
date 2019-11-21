@@ -14,6 +14,7 @@ BST全名Binary Search Tree，也稱ordered binary tree、orted binary tree
 最佳情况Olog(n), 最壞情况O(n)
 
 
+# Insert
 
 ```python
 def insert(root,node): 
@@ -296,6 +297,8 @@ print(Solution().insert(root,5)==root.left)
 改完之後就成功了!
 
 
+# Search
+
 ```python
 class TreeNode(object):
     def __init__(self,x):
@@ -323,6 +326,8 @@ class Solution(object):
 
 search的概念其實跟insert很像，所以打完insert之後我覺得search就蠻好理解的，應該是四個功能當中最不花時間的一個吧!
 
+
+# Delete
 * 這邊先說delete會遇到的三種狀況
   * 沒有child
   * 只有一個child
