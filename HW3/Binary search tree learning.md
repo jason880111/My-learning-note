@@ -356,10 +356,6 @@ class TreeNode(object):
         """
 class Solution(object):
     
-    
-    *我這邊選擇的是找右邊的最小值，所以這邊就先建立一個minRightNode function
-        
-    
     def minRightNode(node):
         current = node
 
@@ -432,9 +428,6 @@ print(root2.right.right.right == None and root2.right.right.left == None and roo
 print(root2.right.left.left.left == None and root2.right.left.left.right == None and root2.right.val == 8)
 print("------------------------------------------")
 ```
-
-這邊丟入測資後，原本想說應該可以跑出正確的結果，但這個delete問題有點大。假設我的root有兩個child，刪除root之後我找了subtree右邊的最小值補上來，當我要再把右邊的最小值刪掉的時候，卻無法刪除這個node，導致我下面跑出來的第一個結果是False
-
 
     delete
     False
@@ -557,7 +550,162 @@ print("------------------------------------------")
 # 流程圖
 <img src='https://github.com/jason880111/My-learning-note/blob/master/image/delete.jpg' height=500 weight =500>
 
+# Modify
+    
 
+接下來繼續用最難的modify
+
+
+```python
+class TreeNode(object):
+    def __init__(self,x):
+        self.val = x
+        self.left = None
+        self.right = None
+        """
+        :type val: int
+        :type left: TreeNode or None
+        :type right: TreeNode or None
+        """
+class Solution(object):
+    def insert(self, root, val):
+        """
+        :type root: TreeNode
+        :type val: int
+        :rtype: TreeNode(inserted node)
+        """
+        if root is None:
+            return root
+        else:
+            while root is not None:
+                if val <= root.val:
+                    if root.left is None:
+                        root.left = TreeNode(val)
+                        return root.left
+                    else:
+                        root = root.left
+                else:
+                    if root.right is None:
+                        root.right = TreeNode(val)
+                        return root.right
+                    else:
+                        root = root.right
+                        
+    def delete(self, root, target):
+        """
+        :type root: TreeNode
+        :type target: int
+        :rtype: TreeNode(the root of new completed binary search tree) (cannot search())
+        """
+        while self.search(root,target) != None:
+
+            if target < root.val:
+                root.left = self.delete(root.left, target)
+
+            elif target > root.val:
+                root.right = self.delete(root.right, target)
+
+            else:
+                
+                if root.right != None:
+                    temp = root.right
+                    root = None
+                    return temp
+
+                elif root.left != None:
+                    temp = root.left
+                    root = None
+                    return temp
+
+                x = self.minRightNode(root.right)
+
+                root.val = x.val
+
+                root.right = self.delete(root.right, x.val)
+            
+        return root
+        
+        
+    def search(self, root, target):
+        """
+        :type root: TreeNode
+        :type target: int
+        :rtype: TreeNode(searched node)
+        """
+        if root is None:
+               return None
+        else:
+            if root.val == target:
+                return root
+            elif root.val < target:
+                return self.search(root.right, target)
+            else:
+                return self.search(root.left, target)
+                
+    def modify(self, root, target, new_val):
+        """
+        :type root: TreeNode
+        :type target: int
+        :type new_val: int
+        :rtype:TreeNode(the root of new completed binary search tree) (cannot search())
+        """
+        if target == new_val:
+                return root
+        else: 
+                Solution().delete(root,target)
+                Solution().insert(root,new_val)
+                
+        return root
+```
+
+
+```python
+import copy
+root = TreeNode(5)
+Node1 = TreeNode(3)
+Node2 = TreeNode(3)
+Node3 = TreeNode(-5)
+Node4 = TreeNode(8)
+Node5 = TreeNode(7)
+Node6 = TreeNode(6)
+Node7 = TreeNode(10)
+root.left = Node1
+root.right = Node4
+Node1.left = Node2
+Node2.left = Node3
+Node4.left = Node5
+Node5.left = Node6
+Node4.right = Node7
+root1 = copy.deepcopy(root)
+root2 = copy.deepcopy(root)
+root3 = copy.deepcopy(root)
+root4 = copy.deepcopy(root)
+```
+
+
+```python
+# modify
+root = TreeNode(5)
+root.left = TreeNode(3)  
+root.left.left = TreeNode(3) 
+root.left.left.left = TreeNode(-5) 
+root.right = TreeNode(8)
+root.right.left = TreeNode(7)
+root.right.left.left = TreeNode(6)
+root.right.right = TreeNode(10)
+root = Solution().modify(root,7,4)
+print(root.right.left.val)
+print(root.left.right.val)
+```
+
+    6
+    4
+    
+
+這邊如果要用正規的方式運作的話其實我也不是很了解.......所以我只是純粹把他們都delete掉之後，再把新的值insert進去而已，我也不確定會不會有bug
+
+# 流程圖
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/modify.jpg' height=500 weight =500>
 
 
 **參考網站**
