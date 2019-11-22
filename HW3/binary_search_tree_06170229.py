@@ -48,15 +48,15 @@ class Solution(object):
 
             else:
                 
-                if root.left is None:
-                    x = root.right
+                if root.right != None:
+                    temp = root.right
                     root = None
-                    return x
+                    return temp
 
-                elif root.right is None:
-                    x = root.left
+                elif root.left != None:
+                    temp = root.left
                     root = None
-                    return x
+                    return temp
 
                 x = self.minRightNode(root.right)
 
