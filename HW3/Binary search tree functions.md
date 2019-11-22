@@ -37,7 +37,7 @@ def insert(self,root,val):
 ```
 
 # Search(查詢)
-* 判斷current應該要往左還是往右左來搜尋某個節點的直
+* 判斷current應該要往左還是往右左來搜尋某個節點的值
 
 
 ```python
@@ -105,9 +105,24 @@ def delete(self, root, target):
         return root
 ```
 
-
 # Modify(修改)
 * 刪除指定數字後將它改為其他數值，再放入新數值後，依照BST的規則將整個tree排序好
+
+
+```python
+def modify(self, root, target, new_val):
+        # 假設欲更改的值和被更改的值一樣，就先不用改變
+        if target == new_val:
+                return root
+            
+        # 這邊則是純粹呼叫兩個function，先將所有的值都delete之後再輸入更改值    
+        else: 
+                Solution().delete(root,target)
+                Solution().insert(root,new_val)
+                
+        return root
+```
+
 
 **參考網站**
 * [二元搜尋數](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
