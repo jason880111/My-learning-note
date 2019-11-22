@@ -90,3 +90,10 @@ class Solution(object):
         :type new_val: int
         :rtype:TreeNode(the root of new completed binary search tree) (cannot search())
         """
+        if target == new_val:
+                return root
+        else: 
+                Solution().delete(root,target)
+                Solution().insert(root,new_val)
+                
+        return root
