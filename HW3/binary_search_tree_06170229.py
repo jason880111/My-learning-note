@@ -49,20 +49,20 @@ class Solution(object):
             else:
                 
                 if root.left is None:
-                    temp = root.right
+                    x = root.right
                     root = None
-                    return temp
+                    return x
 
                 elif root.right is None:
-                    temp = root.left
+                    x = root.left
                     root = None
-                    return temp
+                    return x
 
-                temp = self.minRightNode(root.right)
+                x = self.minRightNode(root.right)
 
-                root.val = temp.val
+                root.val = x.val
 
-                root.right = self.delete(root.right, temp.val)
+                root.right = self.delete(root.right, x.val)
             
         return root
         
