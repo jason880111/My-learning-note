@@ -106,7 +106,8 @@ def delete(self, root, target):
 ```
 
 
-
+# Modify(修改)
+* 刪除指定數字後將它改為其他數值，再放入新數值後，依照BST的規則將整個tree排序好
 
 **參考網站**
 * [二元搜尋數](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
