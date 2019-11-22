@@ -1,6 +1,5 @@
 # BST新增、刪除、查詢、修改功能說明
 
-
 # Insert(新增)
 * 新增節點時，能將節點調整到正確的位置
 
@@ -37,9 +36,9 @@ def insert(self,root,val):
                         root = root.right
 ```
 
-
 # Search(查詢)
 * 判斷current應該要往左還是往右左來搜尋某個節點的直
+
 
 ```python
 def search(self, root, target):
@@ -62,16 +61,14 @@ def search(self, root, target):
                 return self.search(root.left, target)
 ```
 
-
 # Delete(刪除)
 * 刪除某一個節點，並讓其他節點也照著規則排出正確的位置
 
+
 ```python
 def delete(self, root, target):
-    
-        #若root沒有東西，回傳target
-        if root is None:
-            return target
+    #當查詢到的target不等於空值，繼續這個迴圈
+    while self.search(root,target) != None:
 
         #若target小於root的值，則target在subtree的左側
         if target < root.val:
@@ -107,6 +104,7 @@ def delete(self, root, target):
 
         return root
 ```
+
 
 
 
