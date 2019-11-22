@@ -2,7 +2,7 @@
 
 
 # Insert(新增)
-
+* 新增節點時，能將節點調整到正確的位置
 
 ```python
 def insert(self,root,val):
@@ -39,7 +39,7 @@ def insert(self,root,val):
 
 
 # Search(查詢)
-
+* 判斷current應該要往左還是往右左來搜尋某個節點的直
 
 ```python
 def search(self, root, target):
@@ -64,7 +64,7 @@ def search(self, root, target):
 
 
 # Delete(刪除)
-
+* 刪除某一個節點，並讓其他節點也照著規則排出正確的位置
 
 ```python
 def delete(self, root, target):
