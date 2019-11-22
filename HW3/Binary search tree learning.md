@@ -297,7 +297,6 @@ print(Solution().insert(root,5)==root.left)
 
 改完之後就成功了!
 
-
 # Search
 
 ```python
@@ -351,11 +350,10 @@ class TreeNode(object):
         :type right: TreeNode or None
         """
 class Solution(object):
-
-
-*我這邊選擇的是找右邊的最小值，所以這邊就先建立一個minRightNode function
-
-
+    
+    
+    *我這邊選擇的是找右邊的最小值，所以這邊就先建立一個minRightNode function
+        
     
     def minRightNode(node):
         current = node
@@ -430,10 +428,7 @@ print(root2.right.left.left.left == None and root2.right.left.left.right == None
 print("------------------------------------------")
 ```
 
-
 這邊丟入測資後，原本想說應該可以跑出正確的結果，但這個delete問題有點大。假設我的root有兩個child，刪除root之後我找了subtree右邊的最小值補上來，當我要再把右邊的最小值刪掉的時候，卻無法刪除這個node，導致我下面跑出來的第一個結果是False
-
-
 
 
     delete
@@ -445,6 +440,117 @@ print("------------------------------------------")
     
 
 delete實在是太難了，所以我只好直接上網找了幾個網站看人家是怎麼弄的，看了很多種方法也大概了解運作原理了，剩下的部分就只能自己試看看，邊做邊學，所以我就憑我自己的印象重打了一遍
+
+
+```python
+class TreeNode(object):
+    def __init__(self,x):
+        self.val = x
+        self.left = None
+        self.right = None
+        """
+        :type val: int
+        :type left: TreeNode or None
+        :type right: TreeNode or None
+        """
+class Solution(object):
+    
+    def search(self, root, target):
+        
+        if root is None:
+               return None
+        else:
+            if root.val == target:
+                return root
+            elif root.val < target:
+                return self.search(root.right, target)
+            else:
+                return self.search(root.left, target)
+    
+    def minRightNode(node):
+        current = node
+
+        while current.left is not None:
+            current = current.left
+
+        return current
+
+    def delete(self, root, target):
+        while self.search(root,target) != None:
+
+            if target < root.val:
+                root.left = self.delete(root.left, target)
+
+            elif target > root.val:
+                root.right = self.delete(root.right, target)
+
+            else:
+                
+                if root.left is None:
+                    temp = root.right
+                    root = None
+                    return temp
+
+                elif root.right is None:
+                    temp = root.left
+                    root = None
+                    return temp
+
+                temp = self.minRightNode(root.right)
+
+                root.val = temp.val
+
+                root.right = self.delete(root.right, temp.val)
+            
+        return root
+```
+
+經過同學的指點後，直接加入一個while迴圈，只要它查詢到的target不等於空值，就會讓它徹底跑完
+
+
+```python
+import copy
+root = TreeNode(5)
+Node1 = TreeNode(3)
+Node2 = TreeNode(3)
+Node3 = TreeNode(-5)
+Node4 = TreeNode(8)
+Node5 = TreeNode(7)
+Node6 = TreeNode(6)
+Node7 = TreeNode(10)
+root.left = Node1
+root.right = Node4
+Node1.left = Node2
+Node2.left = Node3
+Node4.left = Node5
+Node5.left = Node6
+Node4.right = Node7
+root1 = copy.deepcopy(root)
+root2 = copy.deepcopy(root)
+root3 = copy.deepcopy(root)
+root4 = copy.deepcopy(root)
+```
+
+
+```python
+print("delete")
+root2 = Solution().delete(root2,3)
+print(root2.val == 5 and root2.left.val == -5 and root2.left.left == None and root2.left.right == None)
+print(root2.right.right.val == 10 and root2.right.left.val == 7 and root2.right.left.left.val == 6)
+print(root2.right.right.right == None and root2.right.right.left == None and root2.right.left.right == None)
+print(root2.right.left.left.left == None and root2.right.left.left.right == None and root2.right.val == 8)
+print("------------------------------------------")
+```
+
+    delete
+    True
+    True
+    True
+    True
+    ------------------------------------------
+    
+
+
 
 
 **參考網站**
