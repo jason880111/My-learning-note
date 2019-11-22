@@ -297,6 +297,9 @@ print(Solution().insert(root,5)==root.left)
 
 改完之後就成功了!
 
+# 流程圖
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/insert.PNG' height=500 weight =500>
+
 # Search
 
 ```python
@@ -326,6 +329,8 @@ class Solution(object):
 
 search的概念其實跟insert很像，所以打完insert之後我覺得search就蠻好理解的，應該是四個功能當中最不花時間的一個吧!
 
+# 流程圖
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/search.PNG' height=500 weight =500>
 
 # Delete
 * 這邊先說delete會遇到的三種狀況
@@ -549,6 +554,8 @@ print("------------------------------------------")
     True
     ------------------------------------------
     
+# 流程圖
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/delete.jpg' height=500 weight =500>
 
 
 
