@@ -109,4 +109,5 @@ def delete(self, root, target):
 
 
 **參考網站**
-* [二元搜尋數](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9) 
+* [二元搜尋數](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)
+* [我的程式碼](https://github.com/jason880111/My-learning-note/blob/master/HW3/binary_search_tree_06170229.py) 
