@@ -9,6 +9,14 @@ class TreeNode(object):
         :type right: TreeNode or None
         """
 class Solution(object):
+    def minValueNode(node):
+        current = node
+
+        while current.left is not None:
+            current = current.left
+
+        return current
+    
     def insert(self, root, val):
         """
         :type root: TreeNode
