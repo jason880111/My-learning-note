@@ -37,3 +37,11 @@ Hash Table 是儲存 (key, value) 這種 mapping 關係的一種資料結構，�
 
 # Hash Table流程圖
 
+<img src='https://github.com/jason880111/My-learning-note/blob/master/image/%E6%B5%81%E7%A8%8B%E5%9C%96.PNG' height=350 weight =350>
+
+
+**參考網站**
+
+http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+
+https://leetcode.com/problems/design-hashset/
