@@ -30,3 +30,20 @@
    bfs會把狀態逐個加入佇列，因此通常需要與狀態數成正比的記憶體空間。反之，dfs是與遞迴深度成正比的。一般與狀態數相比，遞迴深度並不會太大，所以dfs更加省    記憶體。
    
   **BFS 的重點在於佇列，而 DFS 的重點在於遞迴。這是它們的本質區別**
+  
+  
+  
+  
+  
+  
+  
+
+
+
+**參考網站**
+
+https://www.itread01.com/content/1541297601.html
+
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/
+
+https://itw01.com/8JWXEHX.html
