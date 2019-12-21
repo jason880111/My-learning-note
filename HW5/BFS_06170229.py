@@ -36,7 +36,7 @@ class Graph:
             visited.append(s)
         
             for neighbor in self.graph[s]:
-                if neighbor not in visited:
+                if neighbor not in visited and neighbor not in stack:
                         stack.append(neighbor) 
         return visited
         
