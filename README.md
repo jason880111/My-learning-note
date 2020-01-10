@@ -51,50 +51,50 @@
   * linked list
   
 # week 3
-  * [Stack & Queue](https://github.com/jason880111/My-learning-note/tree/master/week3)
+  * [Stack & Queue](https://github.com/jason880111/My-learning-note/blob/master/class%20note/Min%20Stack)
   
 # week 4
   * Set Missmatch
   * Insertion Sort
   
 # week 5
-  * Quick Sort
-  * HW1
+  * [Quick Sort](https://github.com/jason880111/My-learning-note/blob/master/HW1/quicksort%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B.md)
+  * [HW1](https://github.com/jason880111/My-learning-note/tree/master/HW1)
   
 # week 6
-  * Heap Sort
+  * [Heap Sort](https://github.com/jason880111/My-learning-note/blob/master/HW2/heap%20sort.md)
   
 # week 7
-  * Merge Sort
-  * HW2
+  * [Merge Sort](https://github.com/jason880111/My-learning-note/blob/master/HW2/merge%20sort.md)
+  * [HW2](https://github.com/jason880111/My-learning-note/tree/master/HW2)
   
 # week 8
-  * Binary Tree
+  * [Binary Tree](https://github.com/jason880111/My-learning-note/blob/master/HW3/Binary%20search%20tree%20functions.mdd)
   
 # week 9
-  * Binary Search Tree
-  * HW3
+  * [Binary Search Tree](https://github.com/jason880111/My-learning-note/blob/master/HW3/Binary%20search%20tree%20learning.md)
+  * [HW3](https://github.com/jason880111/My-learning-note/tree/master/HW3)
   
 # week 10
   * Red Black Tree
   
 # week 11
-  * Hash Table
-  * HW4
+  * [Hash Table](https://github.com/jason880111/My-learning-note/blob/master/HW4/hash%20table%E5%8E%9F%E7%90%86%EF%BC%86%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%EF%BC%86%E6%B5%81%E7%A8%8B%E5%9C%96.md)
+  * [HW4](https://github.com/jason880111/My-learning-note/tree/master/HW4)
   
 # week 12
-  * Breadth-First Search
+  * [Breadth-First Search](https://github.com/jason880111/My-learning-note/blob/master/HW5/BFS%E8%88%87DFS%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BFS%E8%88%87DFS%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
   * Pair Programming
   
 # week 13
-  * Depth-First Search
-  * HW5
+  * [Depth-First Search](https://github.com/jason880111/My-learning-note/blob/master/HW5/BFS%E8%88%87DFS%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BFS%E8%88%87DFS%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
+  * [HW5](https://github.com/jason880111/My-learning-note/tree/master/HW5)
   
 # week 14
-  * Minimum Spanning Tree
+  * [Minimum Spanning Tree](https://github.com/jason880111/My-learning-note/blob/master/HW6/%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Dijkstra%E3%80%81Kruskal%E5%8E%9F%E7%90%86%E8%AA%AA%E6%98%8E.md)
 
 # week 15
-  * Shortest Path
+  * [Shortest Path](https://github.com/jason880111/My-learning-note/blob/master/HW6/%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Dijkstra%E3%80%81Kruskal%E5%8E%9F%E7%90%86%E8%AA%AA%E6%98%8E.md)
   
 # week 16
   * 期末考複習
