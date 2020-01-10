@@ -1,5 +1,7 @@
 # My-learning-note
-歡迎來到我的學習筆記，這裡有我在codesignal和leetcode練習的紀錄
+歡迎來到我的學習筆記，這裡記錄了記錄了資料結構與演算法的所有課程，以及課堂作業的所有歷程，
+
+還有我在codesignal和leetcode練習的資訊
 
 # About me
   * 姓名:鄭至勛
