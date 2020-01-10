@@ -1,0 +1,17 @@
+class MinStack:
+
+    def __init__(self):
+        self.mylist=[]
+        self.len=0
+              
+    def push(self, x: int) -> None:
+        self.mylist.append(x)
+        self.len+=1
+        
+    def pop(self) -> None:
+        if self.len==0:
+            pass
+        else:
+            self.mylist.pop(self.len-1)
+            self.len-=1
+© 2020 GitHub, Inc.
