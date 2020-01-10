@@ -1,1 +1,32 @@
+# CS50
 
+是哈佛大學開設的程式通識課程，內容包山包海，從 Scratch 教到 C 語言、演算法、資料結構、HTTP、Python 甚至是機器學習都有。 課程裡有蠻多上課有教到的東西，例如Heapsort、Linked List等等
+
+# 課程整理
+* [課程網站](https://github.com/jason880111/My-learning-note/blob/master/HW2/heap_sort_06170229.py)
+
+# week3
+* [Monday](https://www.youtube.com/watch?v=xqhcVALTw54)
+* [Wednesday](https://www.youtube.com/watch?v=YxgI7ll4Xtg)
+* [筆記](https://github.com/jason880111/My-learning-note/blob/master/CS50/week3.md)
+
+# week4
+* [Monday](https://www.youtube.com/watch?v=8IZ9r5kmS3Y)
+* [Wednesday](https://www.youtube.com/watch?v=lw1U7CvmjoU)
+* [筆記](https://github.com/jason880111/My-learning-note/blob/master/CS50/week4.md)
+
+# week5
+* [Monday](https://www.youtube.com/watch?v=IEuvKVjw2oM)
+* [Wednesday](https://www.youtube.com/watch?v=atBMLJdSKBo)
+* [筆記](https://github.com/jason880111/My-learning-note/blob/master/CS50/week5.md)
+
+
+# week7
+* [Monday](https://www.youtube.com/watch?v=RUAsmwYC2mc)
+* [Wednesday](https://www.youtube.com/watch?v=QWnZpgZKOoc)
+* [筆記](https://github.com/jason880111/My-learning-note/blob/master/CS50/week7.md)
+
+# week8
+* [Monday](https://www.youtube.com/watch?v=9qvt6MwBKZQ)
+* [Wednesday](https://www.youtube.com/watch?v=ihmHDZKOkA8)
+* [筆記](https://github.com/jason880111/My-learning-note/blob/master/CS50/week8.md)
