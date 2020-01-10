@@ -35,19 +35,75 @@
     * [Dijkstra&Kruskal程式碼](https://github.com/jason880111/My-learning-note/blob/master/HW6/Dijkstra_06170229.py)
     * [Dijkstra與Kruskal流程圖、程式碼學習歷程與Dijkstra與Kruskal原理說明](https://github.com/jason880111/My-learning-note/blob/master/HW6/%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Dijkstra%E3%80%81Kruskal%E5%8E%9F%E7%90%86%E8%AA%AA%E6%98%8E.md)
     
-    
-    
-    
-    
+# 課後練習
+  * [Codesignal](https://github.com/jason880111/My-learning-note/tree/master/codesignal)
+  * [Leetcode](https://github.com/jason880111/My-learning-note/tree/master/leetcode)
+  * [CS50](https://github.com/jason880111/My-learning-note/tree/master/CS50)
+  
+# 課堂筆記
+  * [class note](https://github.com/jason880111/My-learning-note/tree/master/class%20note)
     
     
 # week 1
   * github
+  
 # week 2
   * linked list
+  
 # week 3
   * [Stack & Queue](https://github.com/jason880111/My-learning-note/tree/master/week3)
+  
 # week 4
   * Set Missmatch
   * Insertion Sort
+  
+# week 5
   * Quick Sort
+  * HW1
+  
+# week 6
+  * Heap Sort
+  
+# week 7
+  * Merge Sort
+  * HW2
+  
+# week 8
+  * Binary Tree
+  
+# week 9
+  * Binary Search Tree
+  * HW3
+  
+# week 10
+  * Red Black Tree
+  
+# week 11
+  * Hash Table
+  * HW4
+  
+# week 12
+  * Breadth-First Search
+  * Pair Programming
+  
+# week 13
+  * Depth-First Search
+  * HW5
+  
+# week 14
+  * Minimum Spanning Tree
+
+# week 15
+  * Shortest Path
+  
+# week 16
+  * 期末考複習
+  
+# week 17
+  * 期末考
+  
+# week 18
+  * 放假
+  
+# 課程心得
+  
